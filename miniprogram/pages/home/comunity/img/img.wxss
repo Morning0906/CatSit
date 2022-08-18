@@ -1,0 +1,40 @@
+.text{
+  position: fixed;
+  bottom: 0rpx;
+  width: 650rpx;    /*弹窗布局宽*/
+  height: 200rpx;   /*弹窗布局高，与下面弹出距离transform有关*/
+  margin-left: 28rpx;
+  margin-bottom: 70rpx;
+  background: #a3a57a;
+  z-index: 12;
+  border-radius: 20rpx;
+  padding: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.datu{
+  width: 100%;
+}
+
+.text2{
+  position: fixed;
+  top: 30rpx;
+  width: 650rpx;    /*弹窗布局宽*/
+  height: 1000rpx;   /*弹窗布局高，与下面弹出距离transform有关*/
+  margin-left: 28rpx;
+  margin-bottom: 70rpx;
+  background: #e6dbbb;
+  z-index: -1;
+  border-radius: 20rpx;
+  padding: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wenzi{
+  color:#ffffff;
+  font-size: 18px;
+}

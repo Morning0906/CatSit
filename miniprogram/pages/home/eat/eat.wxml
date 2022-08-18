@@ -1,0 +1,42 @@
+<!--pages/home/eat1/eat1.wxml-->
+<view class="canvas">
+<view class="tittle">
+<view class="bond">
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/64-金币.png"></image>
+<view style="font-size: large; font-weight: 500;">{{gold}}</view>
+</view>
+</view>
+<image class = "backpicture" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/吃饭图片/BackGround.jpg"> 
+</image>
+<view class="topblock">
+<view class="content1">
+<view class="tiaozhuan1" bindtap="back"></view>
+</view>
+</view>
+<view class="container" >
+<view class="content"><navigator class="tiaozhuan" bindtap="buyptml" url="/pages/home/index/index"></navigator>
+<navigator class="xiangqing" url="/pages/home/eat/ptml/ptml"></navigator></view>
+</view>
+<view class="container">
+<view class="content"><navigator class="tiaozhuan" bindtap="buyyzml" url="/pages/home/index/index"></navigator>
+<navigator class="xiangqing" url="/pages/home/eat/yzml/yzml"></navigator></view>
+</view>
+<view class="container">
+<view class="content"><navigator class="tiaozhuan" bindtap="buyxyg" url="/pages/home/index/index"></navigator>
+<navigator class="xiangqing" url="/pages/home/eat/xyg/xyg"></navigator></view>
+</view>
+<view class="container">
+<view class="content"><navigator class="tiaozhuan" bindtap="buyhyg" url="/pages/home/index/index"></navigator>
+<navigator class="xiangqing" url="/pages/home/eat/hyg/hyg"></navigator></view>
+</view>
+<view class="container">
+<view class="content">
+<navigator class="tiaozhuan" bindtap="buymaotiao" url="/pages/home/index/index"></navigator>
+<navigator class="xiangqing" url="/pages/home/eat/maotiao/maotiao"></navigator>
+</view>
+</view>
+<view class="container">
+<view class="content"><navigator bindtap="buytls" class="tiaozhuan" url="/pages/home/index/index"></navigator>
+<navigator class="xiangqing" url="/pages/home/eat/tls/tls"></navigator></view>
+</view>
+</view>

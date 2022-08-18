@@ -1,0 +1,57 @@
+/*.modal {
+    width: 600rpx;
+    height: 400rpx;
+    top: 400rpx;
+    left: 475rpx;
+    margin-left: -400rpx;
+    border-radius: 16rpx;
+    position: absolute;
+    font-size: 40rpx;
+    background-color: #ffffff;
+    z-index: 10000;
+}*/
+
+.modal_hide {
+    display: none;
+}
+
+.header {
+    height: 90rpx;
+    line-height: 90rpx;
+    font-weight: bold;
+    text-align: center;
+    border-bottom:  solid 1rpx; 
+}
+
+.content {
+    /*height: 225rpx;
+    line-height: 250rpx;
+    font-weight: bold;*/
+    text-align: center;
+}
+
+.footer {
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+    border-top:  solid 1rpx; 
+}
+
+.footer button {
+    width: 240rpx;
+    height: 84rpx;
+   /* border: rgb(0, 0, 0) solid 1rpx;*/
+    border-radius: 30rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    margin-left: -120rpx;
+    color: #333;
+    cursor: pointer;
+}
+
+.canvas {
+    width: 750rpx;
+    height: 1445rpx;
+  }

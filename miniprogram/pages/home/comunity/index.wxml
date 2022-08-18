@@ -1,0 +1,30 @@
+<!--pages/home/comunity/index.wxml-->
+<view class="cateCommodity">
+  <view class="leftContainer">
+    <block wx:for="{{imageArray}}" wx:key="{{item.id}}">
+      <view bindtap="toimg" data-imgid="{{item.id}}">
+      <view class="cateItem" wx:if="{{index%2==0}}">
+        <view class="item">
+          <image src="{{item.src}}" class="itemImg" mode="widthFix"></image>
+          <view class="title">{{item.title}}</view>
+        </view>
+      </view>
+      </view>
+    </block>
+  </view>
+  <view class="rightContainer">
+    <block wx:for="{{imageArray}}" wx:key="{{item.id}}">
+      <view bindtap="toimg" data-imgid="{{item.id}}">
+      <view class="cateItem" wx:if="{{index%2==1}}">
+        <view class="item">
+          <image src="{{item.src}}" class="itemImg" mode="widthFix"></image>
+          <view class="title">{{item.title}}</view>
+        </view>
+      </view>
+      </view>
+    </block>
+  </view>
+</view>
+<view class="skipTop" catchtap="skipTop" wx:if="{{showTopImage}}">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA/%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8.png?sign=f89fb43f0b78c651c4cc47a2d0d8615a&t=1639335151"></image>
+</view>

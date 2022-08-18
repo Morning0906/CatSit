@@ -1,0 +1,5 @@
+<view class="content">
+<!--背景动图-->
+<view class='background' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/welcome/welcome.PNG?sign=f0d92c384819caef4128d7298785c85a&t=1639297777");'></view>
+</view>
+<text class='play' bindtap='gotoPage_catname' style="position: absolute; left: 226rpx; top: 1142rpx; width: 298rpx; height: 86rpx; display: block; box-sizing: border-box">立即开启</text>

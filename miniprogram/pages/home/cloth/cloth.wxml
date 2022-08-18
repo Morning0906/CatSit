@@ -1,0 +1,85 @@
+<!--pages/home/cloth/cloth.wxml-->
+<view class="canvas">
+<view class="container">
+<!--背景图-->
+<image class='background' wx:if="{{key==0}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/0.PNG?sign=74506d0c1d6f706c93957bf15fca97c1&t=1639136105"); '></image>
+
+<!--购买-->
+
+
+
+
+<!--衣服-->
+<!--第1套-->
+<image class="cloth" wx:if="{{isbuy1==0}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/1-1.png?sign=1cdaf87769e7b5c54b5a7e498f2c3b3f&t=1639127988" style="position: relative; left: 223rpx; top: 1012rpx"></image>
+<text class='play' bindtap="buybutton1" style="position: absolute; left: 537rpx; top: 1138rpx">购买</text>
+<!--<modal title="是否购买" class="modal" hidden="{{!isbuybutton1}}"  confirm-text="是" cancel-text="否" bindconfirm="buy1" bindcancel="back1">
+    <view class="content" >消耗300金币</view>
+</modal>-->
+    <!--<image class="buy" wx:if="{{isbuy1==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E6%8C%89%E9%94%AE/puton.png?sign=b4948ce51270d66e416da04ca2a15699&t=1639139308"></image>-->
+<image class="cloth" wx:if="{{isbuy1==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/1.png?sign=ec006c2f34f246292b13b5b98e6dc058&t=1639128091" style="position: relative; left: 223rpx; top: 1012rpx"></image>
+
+<text class='play' wx:if="{{isbuy1==1}}" bindtap="putonbutton1" style="z-index: 10; position: absolute; left: 537rpx; top: 1138rpx">穿上</text>
+<!--<modal title="是否穿上" class="modal" hidden="{{!isputonbutton1}}"  confirm-text="是" cancel-text="否" bindconfirm="putoncloth1" bindcancel="back1">
+</modal>-->
+<image class='background' wx:if="{{key==1}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/1.PNG?sign=b3954d7a11dd9ab43b910c8386780611&t=1639136138"); '></image>
+
+
+<!--第2套-->
+<image class="cloth" wx:if="{{isbuy2==0}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/2-1.png?sign=e00c8c2233906669da13690a0c9cec8e&t=1639129788" style="position: relative; left: -226rpx; top: 912rpx"></image>
+<text class='play' bindtap="buybutton2" style="position: absolute; left: 87rpx; top: 1138rpx">购买</text>
+<image class="cloth" wx:if="{{isbuy2==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/2.png?sign=aa67dc6a37c11a4872f8b104892d6f0d&t=1639128749" style="position: relative; left: -226rpx; top: 912rpx"></image>
+
+<text class='play' wx:if="{{isbuy2==1}}" bindtap="putonbutton2" style="z-index: 10; position: absolute; left: 86rpx; top: 1138rpx">穿上</text>
+<image class='background' wx:if="{{key==2}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/2.PNG?sign=487ab0e33c4d4ea4006d3a85d7ac4dab&t=1639136152"); '></image>
+
+
+<!--第3套-->
+<image class="cloth" wx:if="{{isbuy3==0}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/3-1.png?sign=3b67c86d01ba4a3a39987d6b72e7738d&t=1639129520" style="position: relative; left: 225rpx; top: 1060rpx"></image>
+<text class='play' bindtap="buybutton3" style="position: absolute; left: 536rpx; top: 1390rpx">购买</text>
+
+<image class="cloth" wx:if="{{isbuy3==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/3.png?sign=523741996f1aa4a4c6d9a4c16d218f53&t=1639129642" style="position: relative; left: 225rpx; top: 1060rpx"></image>
+
+<text class='play' wx:if="{{isbuy3==1}}" bindtap="putonbutton3" style="z-index: 10; position: absolute; left: 536rpx; top: 1390rpx">穿上</text>
+<image class='background' wx:if="{{key==3}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/3.PNG?sign=01b2bd1f122f10c942df2cbc97ed807c&t=1639136167"); '></image>
+
+
+<!--第4套-->
+<image class="cloth" wx:if="{{isbuy4==0}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/4-1.png?sign=d7d4cf57eb82ef6de67b8a35bbc73055&t=1639129880" style="position: relative; left: 0rpx; top: 712rpx"></image>
+<text class='play' bindtap="buybutton4" style="position: absolute; left: 312rpx; top: 1138rpx">购买</text>
+<image class="cloth" wx:if="{{isbuy4==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/4.png?sign=5e6195e1d5a28dc74e5ed656cfb02e23&t=1639129939" style="position: relative; left: 0rpx; top: 712rpx"></image>
+
+<text class='play' wx:if="{{isbuy4==1}}" bindtap="putonbutton4" style="z-index: 10; position: absolute; left: 312rpx; top: 1138rpx">穿上</text>
+<image class='background' wx:if="{{key==4}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/4.PNG?sign=02865ef30e17a98411c72ba1ef175333&t=1639136180"); '></image>
+
+<!--第5套-->
+<image class="cloth" wx:if="{{isbuy5==0}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/5-1.png?sign=0425f9322253891b9f6b71ce2710fc59&t=1639130025" style="position: relative; left: 0rpx; top: 860rpx"></image>
+<text class='play' bindtap="buybutton5" style="position: absolute; left: 313rpx; top: 1390rpx">购买</text>
+<image class="cloth" wx:if="{{isbuy5==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/5.png?sign=f84b3102423628894c2301132b4298e3&t=1639130070" style="position: relative; left: 0rpx; top: 860rpx"></image>
+
+<text class='play' wx:if="{{isbuy5==1}}" bindtap="putonbutton5" style="z-index: 10; position: absolute; left: 313rpx; top: 1390rpx">穿上</text>
+<image class='background' wx:if="{{key==5}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/5.PNG?sign=5f1fd44f9fcbd2991de3256aa039ca9a&t=1639136196"); '></image>
+
+<!--第6套-->
+<image class="cloth" wx:if="{{isbuy6==0}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/6-1.png?sign=ebf821029edafd8fa269ed86f8b348ef&t=1639130106" style="position: relative; left: -227rpx; top: 761rpx"></image>
+<text class='play' bindtap="buybutton6" style="position: absolute; left: 87rpx; top: 1390rpx">购买</text>
+<image class="cloth" wx:if="{{isbuy6==1}}" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/6.png?sign=9bb1a92a9a39622dd4305edcc8ff26fe&t=1639164681" style="position: relative; left: -226rpx; top: 761rpx"></image>
+
+<text class='play' wx:if="{{isbuy6==1}}" bindtap="putonbutton6" style="z-index: 10; position: absolute; left: 87rpx; top: 1390rpx">穿上</text>
+<image class='background' wx:if="{{key==6}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/6.PNG?sign=adaf4e1ca4ed828ba6b81b34317ecbbc&t=1639136213"); '></image>
+
+<button bindtap='clear' class="btn1" style="position: relative; left: 314rpx; top: -1100rpx; width: 122rpx; height: 98rpx; display: flex; box-sizing: border-box">  
+<image class="im" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/cloth/qingkong.png" style="width: 142rpx; height: 124rpx; display: block; box-sizing: border-box; left: 610rpx; top: 710rpx; position: fixed">
+</image>
+</button>
+<image class='background' wx:if="{{key==0}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/clothes/%E4%B8%8A%E5%9B%BE/0.PNG?sign=74506d0c1d6f706c93957bf15fca97c1&t=1639136105"); '></image>
+
+<text class='play' bindtap="buybutton1" style="position: absolute; left: 537rpx; top: 1138rpx">购买</text>
+<text class='play' bindtap="buybutton2" style="position: absolute; left: 87rpx; top: 1138rpx">购买</text>
+<text class='play' bindtap="buybutton3" style="position: absolute; left: 536rpx; top: 1390rpx">购买</text>
+<text class='play' bindtap="buybutton4" style="position: absolute; left: 312rpx; top: 1138rpx">购买</text>
+<text class='play' bindtap="buybutton5" style="position: absolute; left: 313rpx; top: 1390rpx">购买</text>
+<text class='play' bindtap="buybutton6" style="position: absolute; left: 87rpx; top: 1390rpx">购买</text>
+
+</view>
+</view>

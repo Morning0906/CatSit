@@ -1,0 +1,20 @@
+<!--pages/home/me/me.wxml-->
+<image class = "backpicture" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/background.jpg" > 
+</image>
+<view class="topblock">
+<view class="content1">
+<view class="tiaozhuan1" bindtap="back"></view>
+</view>
+</view>
+<view class="headbox">
+<view class="butt">
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/head.jpg" class="headimg" bindtap="founder">
+</image>
+</view>
+</view>
+<view class="content">
+<view class="con"> 姓名： {{cname}}</view>
+<view class="con"> 剩余金币： {{gold}}</view>
+<view class="con"> 饱食度： {{hunger}}/100</view>
+<view class="con"> 心情指数： {{happy}}/100</view>
+</view>

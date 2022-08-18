@@ -1,0 +1,101 @@
+/* pages/home/eat/ptml/ptml.wxss */
+.backpicture{
+  width:100%;
+  height: 1450rpx;
+  /*只能用网络地址*/
+  background-size: cover;
+  /*层叠布局*/
+  z-index: 0;
+  /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+  position: absolute;
+  z-index: -1;
+}
+.topblock{
+  height: 325rpx;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.content1{
+  height: 120rpx;
+  border-radius: 10%;
+  width: 90%;
+}
+.tiaozhuan1{
+  display: inline;
+  float: right;
+  height: 120rpx;
+  width: 120rpx;
+}
+.content{
+  height: 390rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.image{
+  height: 390rpx;
+  width: 390rpx;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 50rpx;
+  width: 100%;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(177, 66, 2);
+}
+.a{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 210rpx;
+}
+.jianjie{
+  height: 100rpx;
+  width: 65%;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(98, 20, 0);
+}
+.butt1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100rpx;
+  color: rgb(102, 58, 1);
+}
+.butt{
+  height: 100rpx;
+  width: 70%;
+  position: relative;
+  font-size: larger;
+  font-weight: 900;
+}
+.leftbutton{
+  position: absolute;/*要约束所在位置的子元素的位置要设置成绝对*/
+  left: 0;/* 调节靠左 */ 
+  width: 200rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: rgba(131, 58, 58, 0.26) solid 10rpx;
+  border-radius: 45%;
+}
+.rightbutton{
+  position: absolute;/*要约束所在位置的子元素的位置要设置成绝对*/
+  right: 0;/* 调节靠左 */ 
+  width: 200rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: rgba(131, 58, 58, 0.26) solid 10rpx;
+  border-radius: 45%;
+}

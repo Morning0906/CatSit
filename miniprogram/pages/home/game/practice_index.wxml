@@ -1,0 +1,18 @@
+<!--背景动图-->
+<view class='background' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/game/plane/game_bg.PNG?sign=4ebff1d6a0298f473074c9be9bbf55fb&t=1639347494");'></view>
+
+<!--回主页面-->
+<button bindtap='gotopage_index' class="btn1" style="position: relative; left: 327rpx; top: 192rpx; width: 96rpx; height: 82rpx; display: flex; box-sizing: border-box">
+</button>       
+
+<!--到飞机界面-->
+<button bindtap='gotopage_plane' class="btn1" style="position: relative; left: -96rpx; top: 214rpx; width: 191rpx; height: 244rpx; display: flex; box-sizing: border-box">        
+</button>
+
+<!--到catchess界面-->
+<button bindtap='gotopage_fp' class="btn1" style="position: relative; left: 144rpx; top: 194rpx; width: 191rpx; height: 268rpx; display: flex; box-sizing: border-box">        
+</button>
+
+<!--到bird界面-->
+<button bindtap='gotopage_bird' class="btn1" style="position: relative; left: -114rpx; top: 160rpx; width: 226rpx; height: 211rpx; display: flex; box-sizing: border-box">        
+</button>

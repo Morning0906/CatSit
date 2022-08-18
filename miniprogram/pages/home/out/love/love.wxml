@@ -1,0 +1,22 @@
+<!--pages/home/out/three/three.wxml-->
+<!--背景图-->
+<view class='backimage' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA/%E6%83%85%E4%BA%BA%E5%9D%A1.png?sign=7efafd00030fdb6b38bd5d2d0cd05ba1&t=1639294044");'></view>
+
+<view wx:if="{{pd4}}">
+<modal title="New Event！" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+  <view>
+    <image class="image" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA/%E8%A1%A8%E6%83%854.PNG?sign=c7b3caa7088ec6b6c2d53d6d0575062e&t=1639299480" mode='widthFix' style="width: 550rpx; height: 546rpx; display: inline-block; box-sizing: border-box"></image>
+  </view>
+  <view>{{text2}}</view>
+  <view>心情指数+5</view>
+</modal>
+</view>
+
+<view class="page">
+  <view class="page-title"></view>
+  <view class="flex-box">
+    <view class="button"><view class="wenzi" bindtap="toTestPage" data-testId="001">Chapter 01</view></view>
+    <view class="button2"><view class="wenzi" bindtap="toTestPage" data-testId="002">Chapter 02</view></view>
+    <view class="button"><view class="wenzi" bindtap="toTestPage" data-testId="003">Chapter 03</view></view>
+  </view>
+</view>

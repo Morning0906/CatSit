@@ -1,0 +1,28 @@
+<!--pages/home/me/me.wxml-->
+<image class = "backpicture" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/background.jpg" > 
+</image>
+<view class="topblock">
+<view class="content1">
+<view class="tiaozhuan1" bindtap="back"></view>
+</view>
+</view>
+<view class="headbox">
+<view class="butt">
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/头像/微信图片_20211213025333.jpg" class="headimg leftbutton"></image>
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/头像/微信图片_202112130253331.jpg" class="headimg rightbutton"></image>
+</view>
+</view>
+<view class="headbox">
+<view class="butt">
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/头像/微信图片_202112130253332.jpg" class="headimg leftbutton"></image>
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/头像/微信图片_202112130253333.jpg" class="headimg rightbutton"></image>
+</view>
+</view>
+<view class="headbox">
+<view class="butt">
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/头像/微信图片_202112130253334.jpg" class="headimg leftbutton"></image>
+<image src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/me/头像/微信图片_202112130253335.jpg" class="headimg rightbutton"></image>
+</view>
+</view>
+
+<view class="login" bindtap="saysth" style="height: 68rpx; width: 400rpx; display: block; box-sizing: border-box"><text class="text001">More about us</text></view>

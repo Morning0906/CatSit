@@ -1,0 +1,140 @@
+/* pages/home/out/out.wxss */
+/* pages/message/message.wxss */
+page{
+    height:100%;
+    }
+    .backimage {
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+    }
+  .btn1{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+  
+  .btn2{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+
+  .btn3{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+  .btn4{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+  .btn5{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+  .btn6{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+  .btn7{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+  .btn8{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 20rpx;
+    background-color:transparent;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    z-index: 10000;
+  }
+
+  .tips {
+    position: fixed;
+    bottom: 30rpx;
+    right: 20rpx;
+    width: 90rpx;
+    height: 90rpx;
+  }
+  
+  .tipsimage {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }

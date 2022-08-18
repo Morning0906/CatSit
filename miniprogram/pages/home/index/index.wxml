@@ -1,0 +1,39 @@
+<!--页面根标签-->
+<view class="canvas" >
+<view class="content">
+<!--背景动图-->
+<view class='background' wx:if="{{key==0}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/IMG_0401.GIF?sign=f90eb1dd4ef4f5e0344f3a029736821b&t=1637768645");'></view>
+<view class='background' wx:if="{{key==1}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/index/1.gif?sign=297cae2414004477c46c241c03f5f70a&t=1639174039");'></view>
+<view class='background' wx:if="{{key==2}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/index/2.gif?sign=12a90bb955517299f95582349f168325&t=1639174053");'></view>
+<view class='background' wx:if="{{key==3}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/index/3.gif?sign=d21c7044f01cea04729fdff548426ede&t=1639174069");'></view>
+<view class='background' wx:if="{{key==4}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/index/4.gif?sign=27a7f76be40684ba3a2fa82031112d22&t=1639174091");'></view>
+<view class='background' wx:if="{{key==5}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/index/5.gif?sign=47e3336569e2185424468aaf5d9b4a07&t=1639174105");'></view>
+<view class='background' wx:if="{{key==6}}" style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/index/6.gif?sign=aeb38632c1a3e8fcc7a75835c3426f38&t=1639174116");'></view>
+</view>
+<!--1、外出-->
+<button bindtap='gotoPage_one' class="btn1" style="position: relative; left: -300rpx; top: 1270rpx; width: 164rpx; height: 162rpx; display: flex; box-sizing: border-box">
+</button>
+
+<!--2、运动（小游戏）-->
+<button bindtap='gotoPage_two' class="btn1" style="position: relative; left: -115rpx; top: 750rpx; width: 94rpx; height: 150rpx; display: flex; box-sizing: border-box">        
+</button>
+
+<!--3、换衣服-->
+<button bindtap='gotoPage_three' class="btn1" style="position: relative; left: -274rpx; top: -100rpx; width: 222rpx; height: 842rpx; display: flex; box-sizing: border-box">        
+</button>
+
+<!--4、吃饭-->
+<button bindtap='gotoPage_four' class="btn1" style="position: relative; left: -61rpx; top: -60rpx; width: 122rpx; height: 130rpx; display: flex; box-sizing: border-box">        
+</button>
+<!--5、我的-->
+<button bindtap='gotoPage_five' class="btn1" style="position: relative; left: 150rpx; top: -330rpx; width: 300rpx; height: 230rpx; display: flex; box-sizing: border-box">        
+</button>
+<!--6、相片墙-->
+<button bindtap='gotoPage_six' class="camera" style="position: relative; left: 308rpx; top: -239rpx; width: 250rpx; height: 150rpx; display: flex; box-sizing: border-box">  
+<image class="cameraimage" src="https://636c-cloud1-4g2m2gy52f9dcd1c-1308762687.tcb.qcloud.la/%E5%A4%96%E5%87%BA/IMG_0589.PNG?sign=0dce2c1b4df6e42e190d3aa09d3a8338&t=1639396934" style="width: 140rpx; height: 140rpx; display: block; box-sizing: border-box; left: -8rpx; top: 0rpx"></image>      
+</button>
+<!--7、引导-->
+<button bindtap='gotoPage_seven' class="camera" style="position: relative; left: 308rpx; top: -1680rpx; width: 250rpx; height: 162rpx; display: flex; box-sizing: border-box">  
+<image class="cameraimage" src="https://636c-cloud1-4g2m2gy52f9dcd1c-1308762687.tcb.qcloud.la/%E5%A4%96%E5%87%BA/%E9%97%AE%E5%8F%B7.PNG?sign=343a24b91558330fa1edbbedc53e7791&t=1639403061" style="width: 127rpx; height: 127rpx; display: block; box-sizing: border-box"></image>      
+</button>
+</view>

@@ -1,0 +1,75 @@
+<!--catchess.wxml-->
+<view class="container">
+  <view class="userinfo" hidden>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+    <view class="flex-h">
+        <view class="player-pane">
+            <text>{{player1.name}}：</text><view wx:if="{{player1.performance}}" class="performance-{{player1.performance}}"></view>
+            <text>\n杀敌：{{player1.kill}}</text>
+            <text>\n牺牲：{{player1.die}}</text>
+        </view>
+        <view class="player-pane">
+            <text>{{player2.name}}：</text><view wx:if="{{player2.performance}}" class="performance-{{player2.performance}}"></view>
+            <text>\n杀敌：{{player2.kill}}</text>
+            <text>\n牺牲：{{player2.die}}</text>
+        </view>
+    </view>
+    <view class="flex-h">
+        <view class="player">
+            <view wx:if="{{currentPlayer.id == player1.id}}" class="player-{{player1.performance}}">
+            </view>
+        </view>
+        <view class="player">
+            <view wx:if="{{currentPlayer.id == player2.id}}" class="player-{{player2.performance}}">
+            </view>
+        </view>
+    </view>
+    <view class="message-container">
+        <text wx:if="{{message}}">{{message}}</text>
+    </view>
+
+  <view class="chess-board">
+      <view wx:for="{{chessboard}}" wx:key="key" wx:for-index="rowIndex" wx:for-item="chessmen">
+          <view class="flex-h" wx:if="{{chessmen}}">
+              <view class="chess" catchtap="move" data-location="{{[rowIndex, 0]}}">
+                  <view wx:if="{{chessmen[0]}}" class="chess-{{chessmen[0].state}}" catchtap="choose" data-location="{{[rowIndex, 0]}}">
+                      <label wx:if="{{chessmen[0].show}}" class="banner">[{{chessmen[0].level}}]</label>
+                      <text wx:if="{{chessmen[0].show}}" class="text-{{chessmen[0].performance}} text-{{chessmen[0].state}}">{{chessmen[0].name}}</text>
+                      <!--<image class="cell-con" wx:if="{{chessmen[0].show}}" src="{{chessmen[0].url}}"></image>-->
+                  </view>
+              </view>
+              <view class="chess" catchtap="move" data-location="{{[rowIndex, 1]}}">
+                  <view wx:if="{{chessmen[1]}}" class="chess-{{chessmen[1].state}}" catchtap="choose" data-location="{{[rowIndex, 1]}}">
+                      <label wx:if="{{chessmen[1].show}}" class="banner">[{{chessmen[1].level}}]</label>
+                      <text wx:if="{{chessmen[1].show}}" class="text-{{chessmen[1].performance}} text-{{chessmen[1].state}}">{{chessmen[1].name}}</text>
+                  </view>
+              </view>
+              <view class="chess" catchtap="move" data-location="{{[rowIndex, 2]}}">
+                  <view wx:if="{{chessmen[2]}}" class="chess-{{chessmen[2].state}}" catchtap="choose" data-location="{{[rowIndex, 2]}}">
+                      <label wx:if="{{chessmen[2].show}}" class="banner">[{{chessmen[2].level}}]</label>
+                      <text wx:if="{{chessmen[2].show}}" class="text-{{chessmen[2].performance}} text-{{chessmen[2].state}}">{{chessmen[2].name}}</text>
+                  </view>
+              </view>
+              <view class="chess" catchtap="move" data-location="{{[rowIndex, 3]}}">
+                  <view wx:if="{{chessmen[3]}}" class="chess-{{chessmen[3].state}}" catchtap="choose" data-location="{{[rowIndex, 3]}}">
+                      <label wx:if="{{chessmen[3].show}}" class="banner">[{{chessmen[3].level}}]</label>
+                      <text wx:if="{{chessmen[3].show}}" class="text-{{chessmen[3].performance}} text-{{chessmen[3].state}}">{{chessmen[3].name}}</text>
+                  </view>
+              </view>
+          </view>
+      </view>
+  </view>
+
+    <view class="button-container">
+        <text class='play' bindtap='startGame' style="position: absolute; left: 30rpx; top: 1072rpx">重新开始</text>
+        <text class='play' bindtap='gameOver' style="position: absolute; left: 462rpx; top: 1072rpx">结束游戏</text>
+    </view>
+
+    <modal title="游戏结束" class="modal" hidden="{{!over}}" confirm-text="结束" no-cancel bindconfirm="endGame">  
+    </modal>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/home/out/lake/test/test.wxml-->
+<!--背景图-->
+<view class='backimage' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA/%E7%BB%BF%E5%8F%B6%E9%A4%90%E5%8E%85.png?sign=0c000c486e503d6de7d712359416cccb&t=1639175792");'></view>
+
+  <!--标题-->
+    <view class='text'>
+      {{questionList[index].question}}
+    </view>
+  <!--按钮-->
+  <view class='page_ft'>
+    <view class='mybutton'>
+      <button class='nextSubmit' bindtap='nextSubmit' wx:if="{{index == questionList.length-1}}" style="position: fixed; left: 36rpx; top: 1138rpx; width: 680rpx; height: 239rpx; display: flex; box-sizing: border-box"></button>
+      <button class='nextSubmit' bindtap='nextSubmit' wx:else style="position: fixed; left: 36rpx; top: 1138rpx; width: 680rpx; height: 239rpx; display: flex; box-sizing: border-box"></button>
+    </view>
+  </view>
+
+

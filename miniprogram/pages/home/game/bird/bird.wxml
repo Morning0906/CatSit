@@ -1,0 +1,6 @@
+<view>
+    <canvas canvas-id="birdId" class="canvas" hidden="{{!modalHidden}}" bindtouchstart="onTouchStart" bindtouchmove="onTouchMove" bindtouchend="onTouchEnd"></canvas>
+    <modal title="得分" class="modal" hidden="{{modalHidden}}" confirm-text="结束" no-cancel bindconfirm="endGame">  
+        <view class="content"> {{score}} </view>
+    </modal>
+</view>

@@ -1,0 +1,13 @@
+<view class='backimage' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA.gif?sign=9e0d259495f43ad944bbfbcdf3d5ba56&t=1638719047");'></view>
+
+<view class="content-box">
+  <view class="content-box-item">
+    <text class="text01">“猫想出来逛逛”中的部分剧情灵感来源于上财小太阳朋友圈投稿，如有冒犯之处，请联系开发者进行修改或删除。
+  </text>
+    <text class="text02"></text>
+  </view>
+</view>
+
+<button bindtap='backout' class="btn8" style="position: relative; left: -292rpx; top: -19rpx; width: 272rpx; height: 1028rpx; display: flex; box-sizing: border-box">
+</button>
+

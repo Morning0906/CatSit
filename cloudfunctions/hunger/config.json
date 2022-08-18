@@ -1,0 +1,8 @@
+{
+  "triggers": [
+    { "name": "hungerdec",
+      "type": "timer",
+      "config": "0 */10 * * * * *"
+    }
+  ]
+}

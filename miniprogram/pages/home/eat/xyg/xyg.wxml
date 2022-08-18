@@ -1,0 +1,28 @@
+<!--pages/home/eat/ptml/ptml.wxml-->
+<image class = "backpicture" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/吃饭图片/back.jpg"> 
+</image>
+<view class="topblock">
+<view class="content1">
+<view class="tiaozhuan1" bindtap="back"></view>
+</view>
+</view>
+<view class="content">
+<image class="image" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/吃饭图片/吃的/鱼1.png" bindtap="rotate" animation="{{animated}}"></image>
+</view>
+<view class="text">
+金币：15
+</view>
+<view class="text">
+增加饱食度：20
+</view>
+<view class="a">
+<view class="jianjie">
+简介：猫零食小鱼干，如果小猫猫表现得还不错，就奖励ta一个小鱼干吧！
+</view>
+</view>
+<view class="butt1">
+<view class="butt">
+<view class="leftbutton" bindtap="back">返回</view>
+<navigator class="rightbutton" bindtap="buy" url="/pages/home/index/index">购买</navigator>
+</view>
+</view>

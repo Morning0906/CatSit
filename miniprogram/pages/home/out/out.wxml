@@ -1,0 +1,36 @@
+<!--pages/message/message.wxml-->
+<!--页面根标签-->
+<view class="content">
+<!--背景图-->
+<view class='backimage' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA.gif?sign=9e0d259495f43ad944bbfbcdf3d5ba56&t=1638719047");'></view>
+
+<!--页面其它部分-->
+</view>
+<button bindtap='gotoPage_green' class="btn1" style="position: relative; left: 18rpx; top: 731rpx; width: 296rpx; height: 733rpx; display: flex; box-sizing: border-box">
+</button>
+
+<button bindtap='gotoPage_lib' class="btn2" style="position: relative; left: 293rpx; top: 683rpx; width: 165rpx; height: 1195rpx; display: flex; box-sizing: border-box">       
+</button>
+  
+<button bindtap='gotoPage_two' class="btn3" style="position: relative; left: -265rpx; top: 218rpx; width: 218rpx; height: 852rpx; display: flex; box-sizing: border-box">
+</button>
+
+<button bindtap='gotoPage_three' class="btn4" style="position: relative; left: 17rpx; top: -88rpx; width: 296rpx; height: 884rpx; display: flex; box-sizing: border-box">
+</button>
+
+<button bindtap='gotoPage_lake' class="btn5" style="position: relative; left: 24rpx; top: 220rpx; width: 245rpx; height: 894rpx; display: flex; box-sizing: border-box">
+</button>
+
+<button bindtap='gotoPage_stop' class="btn6" style="position: relative; left: -265rpx; top: -678rpx; width: 218rpx; height: 536rpx; display: flex; box-sizing: border-box">
+</button>
+
+<button bindtap='gotoPage_love' class="btn7" style="position: relative; left: 24rpx; top: -841rpx; width: 272rpx; height: 988rpx; display: flex; box-sizing: border-box">
+</button>
+
+<button bindtap='gotoPage_back' class="btn8" style="position: relative; left: -292rpx; top: -19rpx; width: 272rpx; height: 1028rpx; display: flex; box-sizing: border-box">
+</button>
+
+<view class="tips" bindtap="gotoPage_tips">
+<image class="tipsimage" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%96%E5%87%BA/tooltips.png?sign=f61e3b772da5484d159ce95b3d4ab22f&t=1639341249">
+</image>
+</view>

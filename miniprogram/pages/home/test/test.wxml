@@ -1,0 +1,13 @@
+<view class='circlePage'>
+  <view class='wrap'>
+    <!-- 圆形中间的文字 -->
+    <view class="circleText">
+      <text class='num'>{{total}}</text>
+      <view class='line'></view>
+      <text class="text">饥饿度</text>
+    </view>
+    <!-- 第一个canvas用于绘制白色圆形 第二个canvas用于绘制橙色圆形进度条 -->
+    <canvas canvas-id='canvas' class="canvas progress"></canvas>
+    <canvas canvas-id='canvas_p' class="canvas" />
+  </view>
+</view>

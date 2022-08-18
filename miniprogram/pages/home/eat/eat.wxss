@@ -1,0 +1,71 @@
+/* pages/home/eat1/eat1.wxss */
+.canvas{
+  height:1450rpx;
+  width: 750rpx;
+}
+.tittle{
+  height: 0;
+}
+.bond{
+  width: 40%;
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.bond image{
+  height: 80rpx;
+  width: 80rpx;
+}
+.backpicture{
+  width: 100%;
+  height: 1450rpx;
+  /*只能用网络地址*/
+  background-size: cover;
+  /*层叠布局*/
+  z-index: 0;
+  /*相对位置，这样其他view就能用绝对位置覆盖上去*/
+  position: absolute;
+  z-index: -1;
+}
+.topblock{
+  height: 325rpx;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.container{
+  height: 140rpx;
+}
+.content1{
+  height: 120rpx;
+  border-radius: 10%;
+  width: 90%;
+}
+.content{
+  height: 140rpx;
+  border-radius: 10%;
+  width: 70%;
+}
+.tiaozhuan{
+  display: inline;
+  float: right;
+  height: 120rpx;
+  width: 120rpx;
+  background-color: transparent;
+}
+.tiaozhuan1{
+  display: inline;
+  float: right;
+  height: 120rpx;
+  width: 120rpx;
+  background-color: transparent;
+}
+.xiangqing{
+  display: inline;
+  float: left;
+  height: 120rpx;
+  width: 380rpx;
+  background-color: transparent;
+}

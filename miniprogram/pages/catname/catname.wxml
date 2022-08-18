@@ -1,0 +1,11 @@
+<!--pages/catname/catname.wxml-->
+<view class='background'style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/register/IMG_0540.PNG?sign=a796cb3cf269f15e7c0d8ec821b0126f&t=1639236848");'></view>
+
+<form bindsubmit="bdsmit">
+<view class="box"  style="position: relative; left: 0rpx; top: 928rpx">
+<input style="width: 548rpx; height: 76rpx; display: block; box-sizing: border-box"  value="{{randname}}" name="name" bindinput="input" placeholder="为你的猫咪起个名字吧！"/>
+<button class="img" size="mini" bindtap="rand" style="width: 134rpx; height: 104rpx; display: block; box-sizing: border-box; left: 0rpx; top: 84rpx; position: relative">
+<image class="img" src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211205114743.png?sign=c4e2b6d35acf1c39eabb4c9e591fad37&t=1638676721" style="width: 86rpx; height: 94rpx; display: inline-block; box-sizing: border-box">
+</image></button></view>
+<button type="yellow" form-type="submit" plain="true" style="position: relative; left: 0rpx; top: 1056rpx">确定</button>
+</form>

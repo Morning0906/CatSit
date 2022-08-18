@@ -1,0 +1,46 @@
+.circlePage{
+  background:black;
+  padding: 20rpx 0;
+}
+.wrap {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circleText{
+  text-align:center;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.num {
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 12px;
+}
+ 
+.line {
+  width: 70rpx;
+  height: 2rpx;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 12rpx;
+  margin-bottom: 9rpx;
+}
+.text {
+  font-size: 12px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 12px;
+}
+.canvas{
+  width: 200rpx; 
+  height: 200rpx;
+}
+.progress {
+  position: absolute;
+}

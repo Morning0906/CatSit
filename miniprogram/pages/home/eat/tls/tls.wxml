@@ -1,0 +1,28 @@
+<!--pages/home/eat/ptml/ptml.wxml-->
+<image class = "backpicture" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/吃饭图片/back.jpg"> 
+</image>
+<view class="topblock">
+<view class="content1">
+<view class="tiaozhuan1" bindtap="back"></view>
+</view>
+</view>
+<view class="content">
+<image class="image" src="cloud://cloud1-4g2m2gy52f9dcd1c.636c-cloud1-4g2m2gy52f9dcd1c-1308762687/吃饭图片/吃的/铜锣烧.png" bindtap="rotate" animation="{{animated}}"></image>
+</view>
+<view class="text">
+金币：50
+</view>
+<view class="text">
+增加饱食度：100
+</view>
+<view class="a">
+<view class="jianjie">
+简介：猫猫不喜欢吃铜锣烧，但是开发人员龚某喜欢吃，所以就加上了。
+</view>
+</view>
+<view class="butt1">
+<view class="butt">
+<view class="leftbutton" bindtap="back">返回</view>
+<navigator class="rightbutton" bindtap="buy" url="/pages/home/index/index">购买</navigator>
+</view>
+</view>

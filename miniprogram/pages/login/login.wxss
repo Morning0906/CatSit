@@ -1,0 +1,148 @@
+/* pages/login.wxss */
+.content{
+    margin-top: 40px;
+  }
+  .account{
+     display: flex;
+     flex-direction: row;
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     width: 90%;
+     position:fixed;
+  }
+  .title{
+     margin-right: 30px;
+     font-weight: bold;
+     position: relative;
+  }
+  .hr{
+    border: 1px solid #cccccc;
+    opacity: 0.2;
+    width: 90%;
+    margin: 0 auto;
+    background-color: red;
+  }
+  .btn{
+    width: 90%;
+    margin-top:40px;
+    color: #999999;
+  }
+  
+  .titleImage{
+    margin-top: 25rpx;
+    display:grid;
+    justify-content: center;         
+    align-items:center; 
+    position:relative;              
+   }
+ 
+.background {
+    width: 747rpx;
+    height: 643.8rpx;
+    left: 5rpx;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: 10;
+    position: absolute;
+    justify-content: center;
+}
+   /* pages/login/login.wxss */
+.input-wrap {
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  justify-content: center;
+  text-align: center;
+  border: 1rpx solid black;
+  border-radius: 19px;
+}
+
+.container1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 
+
+
+.info-input {
+  border-bottom: 2rpx solid #000000;
+  width: 200rpx;
+}
+
+.three
+{
+  margin-bottom: 30rpx;
+  border-style:solid;
+  border-radius: 30rpx;
+  border-width:1px;
+  width: 300rpx;
+  color: rgba(82, 84, 87, 100);
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFang SC;
+  border: 1px solid rgba(152, 157, 164, 100);
+
+}
+
+.login {
+  margin-left: 22rpx;
+  margin-top: 24rpx;
+  width: 600rpx;
+  height: 40px;
+  border-radius: 19px;
+  background-color: rgba(242, 216, 39, 100);
+  color: rgba(16, 16, 16, 100);
+  font-size: 30rpx;
+  text-align: center;
+  font-family: PingFang SC;
+  border: 0px solid rgba(242, 216, 39, 100);
+}
+
+.gotoRegister{
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  width: 300rpx;
+  color: rgba(242, 216, 39, 100);
+  background-color: white;
+}
+
+.titleImage{
+  margin-top: 50rpx;
+  display:grid;
+  justify-content: center;         
+  align-items:center;                
+ }
+
+ .titleImage image{
+  width:550rpx;
+  height:550rpx;
+}
+
+.title{
+  font-size:100%;
+  line-height:20px;
+  margin-top:0rpx;
+  text-align: center;
+  font-weight: 300;
+}
+.btn1{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  background-color:transparent;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  z-index: 1000;
+}

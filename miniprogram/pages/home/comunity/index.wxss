@@ -1,0 +1,59 @@
+/* pages/home/comunity/index.wxss */
+page{
+    background: #e6dbbb;
+  }
+  /* 最外层 */
+  .cateCommodity {
+    display: flex;
+    padding: 20rpx 28rpx 8rpx;
+    box-sizing: border-box;
+    font-size: 28rpx;
+  }
+  /* 左右两个容器 */
+  .leftContainer{
+    display: flex;
+    margin-right: 22rpx;
+    flex-direction: column;
+  }
+  .rightContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  /* 图片容器 */
+  .cateItem {
+    margin-bottom: 20rpx;
+  }
+  .item{
+    padding: 20rpx 22rpx;
+    width: 335rpx;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 6rpx;
+  }
+  .itemImg{
+    margin-bottom: 14rpx;
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 6rpx;
+  }
+  .title{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.5;
+  }
+  /* 返回顶部 */
+  .skipTop {
+    position: fixed;
+    bottom: 30rpx;
+    right: 20rpx;
+    width: 120rpx;
+    height: 120rpx;
+  }
+  
+  .skipTop image {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }

@@ -1,0 +1,14 @@
+<view>
+    <canvas canvas-id="plainId" class="canvas" hidden="{{!modalHidden}}" bindtap="click" bindtouchmove="move"></canvas>
+    <!--<cover-view id="modal" class="modal {{modalHidden}}" >
+        <cover-view class="header">飞机大战分数</cover-view>
+        <cover-view class="content" id="content">{{score}}</cover-view>
+        <cover-view class="footer">
+            <button bindtap="endGame" style="position: absolute; left: 120rpx; top: rpx">结束</button>
+        </cover-view>
+    </cover-view>-->
+    <modal title="得分" class="modal" hidden="{{modalHidden}}" confirm-text="结束" no-cancel bindconfirm="endGame">  
+        <view class="content"> {{score}} </view>
+    </modal>
+
+</view>

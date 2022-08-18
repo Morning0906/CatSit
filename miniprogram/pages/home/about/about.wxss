@@ -1,0 +1,76 @@
+.backimage {
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+    }
+
+.page{
+  background-color: #e6dbbb;
+}
+
+.content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box-item {
+  margin-top:20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text01 {
+  width: 280px;
+  font-size: 16px;
+  line-height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+    display:flex ;
+    margin-top:rpx;
+    width: 650rpx;    /*弹窗布局宽*/
+    height: 200rpx;   /*弹窗布局高，与下面弹出距离transform有关*/
+    margin-left: 8rpx;
+    margin-bottom: 0rpx;
+    background: #f8f8f8;
+    z-index: 12;
+    border-radius: 20rpx;
+    padding: 2rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+  }
+
+  .text1{
+    display:flex ;
+    margin-top:rpx;
+    width: 650rpx;    /*弹窗布局宽*/
+    height: 100rpx;   /*弹窗布局高，与下面弹出距离transform有关*/
+    margin-left: 11rpx;
+    margin-bottom: 0rpx;
+    background: #f8f8f8;
+    z-index: 12;
+    border-radius: 20rpx;
+    padding: 2rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+  }
+
+
+
+
+
+
+

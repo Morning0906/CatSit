@@ -1,0 +1,8 @@
+{
+  "triggers": [
+    { "name": "tanchuangreset",
+      "type": "timer",
+      "config": "59 59 23 * * * *"
+    }
+  ]
+}

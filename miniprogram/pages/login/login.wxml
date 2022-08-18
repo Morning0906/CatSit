@@ -1,0 +1,45 @@
+<!--title-->
+<view class='background' style='background-image:url("https://636c-cloud1-4g2m2gy52f9dcd1c-1308762687.tcb.qcloud.la/login/IMG_0600.PNG?sign=734da0f15ad75cf1b5f9bed7e9c266b1&t=1639399841"); top: 80rpx;'></view>
+
+<!--<view class="titleImage">
+  <image src='https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/login/login0.png?sign=8addb3afa3cefefa1cf403e3d466a474&t=1638843229' style="width: 344rpx; height: 320rpx; display: block; box-sizing: border-box"></image>
+</view>
+
+<form bindsubmit="btnSub">
+<view class="content">
+<view class="account" style="position: fixed; left: 18rpx; top: 432rpx">
+<view class="title">账号</view>
+<view class="num"><input name="wxhao" placeholder="用户名"  placeholder-style="color:#999999;"/></view>
+</view>
+<view class="hr"></view>
+<view class="account" style="position: fixed; left: 18rpx; top: 537rpx">
+<view class="title">密码</view>
+<view class="num">
+<input name="mima" placeholder="请输入密码" password/></view>
+</view>
+
+<view class="hr"></view>
+
+<button class="btn" type="primary" form-type="submit" style="position: relative; left: 0rpx; top: 410rpx">登录</button> 
+ <button type="primary" form-type="reset" style="position: relative; left: 0rpx; top: 410rpx">重置</button>
+</view>
+</form>
+-->
+<form bindsubmit="btnSub">
+<view class="input-wrap" style="position: relative; left: 159rpx; top: 792rpx; width: 434rpx; height: 80rpx; display: flex; box-sizing: border-box">
+    <input style="width: 466rpx; height: 127rpx; display: block; box-sizing: border-box"  name = "wxhao"style=" width: 466rpx; height: 75rpx; display: block; box-sizing: border-box; left: 30; top: 200rpx "
+      placeholder="请输入账号" />
+  </view>
+  <view class="input-wrap" style="position: relative; left: 163rpx; top: 829rpx; width: 430rpx; height: 76rpx; display: flex; box-sizing: border-box">
+    <input name = "mima" style="width: 466rpx; height: 75rpx; display: block; box-sizing: border-box; left: 30rpx; top: 280rpx"
+    placeholder="请输入密码" password />
+  </view>
+  <!--<button class="login" type="default" plain="true" form-type="submit" style="position: relative; left: -118rpx; top: 818rpx"></button>
+  <button class="gotoRegister" type="default" plain="true" form-type="reset" style="position: relative; left: 0rpx; top: 1160rpx; width: 368rpx; height: 74rpx; display: block; box-sizing: inherit"></button>-->
+  <button  class="login" style="z-index: -1; position: relative; left: 0rpx; top: 944rpx">登录</button>
+  <button  class="login" style="z-index: -1; position: relative; left: 0rpx; top: 947rpx">重置</button>
+  <button class="btn1" form-type="submit" style="position: relative; left: 0rpx; top: 740rpx; width: 368rpx; height: 80rpx; display: flex; box-sizing: border-box">
+</button>  
+<button class="btn1" form-type="reset" style="position: relative; left: 0rpx; top: 720rpx; width: 368rpx; height: 80rpx; display: flex; box-sizing: border-box">
+</button>
+</form>

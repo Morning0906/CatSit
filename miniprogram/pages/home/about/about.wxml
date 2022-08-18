@@ -1,0 +1,29 @@
+<view class='backimage' style='background-image:url("https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/IMG_0401.GIF?sign=f90eb1dd4ef4f5e0344f3a029736821b&t=1637768645");'></view>
+
+<view class="content-box-item">
+  <view class="text">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%B4%E5%83%8F/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202112130253333.jpg?sign=a89eda6affe6647bb5da1380342253cd&t=1639345223" style="width: 125rpx; height: 125rpx; display: block; box-sizing: border-box"></image>
+  <text class="text1" decode="{{true}}" space="{{true}}" style="width: 458rpx; height: 86rpx; display: block; box-sizing: border-box">肯德基疯狂星期四，谁请我吃？</text>
+  </view>
+  <view class="text">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%B4%E5%83%8F/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202112130253335.jpg?sign=14fbb8f70587ebdf0c7525bcebf616f6&t=1639346177" style="width: 125rpx; height: 125rpx; display: block; box-sizing: border-box"></image>
+  <text class="text1" decode="{{true}}" space="{{true}}" style="width: 446rpx; height: 50rpx; display: block; box-sizing: border-box">做得很好，下次不要再做了&ensp;&ensp;</text>
+  </view>
+  <view class="text">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%B4%E5%83%8F/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211213025333.jpg?sign=fcb699605a994ba7bcbeaae6c49d0ce2&t=1639346201" style="width: 125rpx; height: 125rpx; display: block; box-sizing: border-box"></image>
+  <text decode="{{true}}" space="{{true}}" style="width: 450rpx; height: 42rpx; display: block; box-sizing: border-box"> &ensp;微信开发者平台，拉！&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</text>
+  </view>
+  <view class="text">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%B4%E5%83%8F/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202112130253331.jpg?sign=bfa3f9b9d4b14b11e39e2f5b8e4dd781&t=1639346219" style="width: 125rpx; height: 125rpx; display: block; box-sizing: border-box"></image>
+  <text decode="{{true}}" space="{{true}}">&ensp;海底捞不止火锅！！！&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</text>
+  </view>
+  <view class="text">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%B4%E5%83%8F/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202112130253332.jpg?sign=6d2e2470ac8b6ab45b493f2d1868c3b0&t=1639346247" style="width: 125rpx; height: 125rpx; display: block; box-sizing: border-box"></image>
+  <text decode="{{true}}" space="{{true}}"> &ensp;菠菠毛&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</text>
+  </view>
+  <view class="text">
+  <image src="https://636c-cloud1-2gz8am4t82a25e05-1308305151.tcb.qcloud.la/%E5%A4%B4%E5%83%8F/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202112130253334.jpg?sign=5f84e3ae2cc6b20da940f1b0e549d9b4&t=1639346263" style="width: 127rpx; height: 124rpx; display: block; box-sizing: border-box"></image>
+  <text class="text1" decode="{{true}}" space="{{true}}" style="width: 440rpx; height: 84rpx; display: block; box-sizing: border-box">多年以后你我相遇，我该以何贺你，眼泪还是沉默？</text>
+  </view>
+</view>
+

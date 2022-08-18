@@ -1,0 +1,12 @@
+<!--pages/home/out/lake/test/test.wxml-->
+
+  <!--图片-->
+  <view class="text2"><image class="datu" src="{{questionList[index].question}}" mode="widthFix">
+  </image>
+  </view>
+
+  <view class="text"><text class="wenzi">{{questionList2[index].question}}
+  </text>
+  </view>
+
+
