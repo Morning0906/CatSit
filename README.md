@@ -1,3 +1,6 @@
+### 若图片无法展示，请点击以下博客进行查看：
+[猫猫想过来坐坐](https://blog.csdn.net/qq_55872579/article/details/126589971?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22126589971%22%2C%22source%22%3A%22qq_55872579%22%7D)
+
 # 猫猫想过来坐坐
 
 这是一个云养猫小程序，你可以注册自己的账号，领养一只可爱的小猫，并和它完成许多有趣的功能
@@ -16,6 +19,4 @@
 ![image](./catsit/6.jpg)
 ![image](./catsit/7.jpg)
 ![image](./catsit/8.jpg)
-
-### 若图片无法展示，请点击以下博客进行查看：
 
